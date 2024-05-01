@@ -28,13 +28,10 @@
 @media (max-width: 767px) {
   .character-card {
    
-    width: 257px;
+    width: 183px !important;
 
   }
 }
-/* .characters{
-  text-align: center;
-} */
 @media (max-width: 1399px) {
   .character-card {
    
