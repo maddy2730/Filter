@@ -32,6 +32,9 @@
 
   }
 }
+.characters{
+  text-align: center;
+}
 @media (max-width: 1399px) {
   .character-card {
    
@@ -144,18 +147,17 @@ li {
 .Characters_name h6{
   margin-bottom: 0.3rem !important;
 }
-/* Add these styles to your existing App.css file */
 
-/* Selected filter field */
+
 .selected-filter {
   display: inline-block;
   background-color: lightgrey;
   padding: 5px 10px;
   margin-right: 10px;
-  border-radius: 20px; /* Adjust the border-radius to your preference */
+  border-radius: 20px;
 }
 
-/* Remove filter button */
+
 .btn-remove-filter {
   margin-left: 5px;
   background-color: transparent;
@@ -163,7 +165,7 @@ li {
   cursor: pointer;
 }
 
-/* Hover effect on remove filter button */
+
 .btn-remove-filter:hover {
-  color: red; /* Change the color on hover to make it more noticeable */
+  color: red; 
 }
