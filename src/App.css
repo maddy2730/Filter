@@ -1,0 +1,169 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.header {
+  margin-bottom: 20px;
+}
+.header input[type="text"] {
+  padding: 8px;
+  width: 200px;
+  margin-right: 20px;
+}
+.filters select {
+  padding: 8px;
+  margin-right: 10px;
+}
+.character-card {
+  display: inline-block;
+  width: 241px;
+  background-color: #272323;
+  color: white;
+ 
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+@media (max-width: 767px) {
+  .character-card {
+   
+    width: 257px;
+
+  }
+}
+@media (max-width: 1399px) {
+  .character-card {
+   
+    width: 258px;
+
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .character-card {
+    width: 348px;
+  }
+}
+
+.character-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.character-info h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.character-info p {
+  margin: 5px 0;
+}
+.add_main_filter{
+  display: flex;
+    justify-content: space-between;
+
+}
+.gender-filter {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden; 
+ 
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.selected {
+  background-color: #eaeaea;
+  font-weight: bold;
+}
+
+.species-filter {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden; 
+  margin-bottom: 20px;
+}
+
+.species-filter ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.species-filter li {
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.species-filter .selected {
+  background-color: #eaeaea;
+  font-weight: bold;
+}
+
+.origin-filter{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.character-info p{
+  font-size: x-small !important;
+
+}
+.status {
+  display: flex;
+  justify-content: space-between;
+}
+.status_output p{
+  color: orange;
+}
+.Characters_name{
+  position: relative;
+  top: -38px;
+  background-color: #000000a1;;
+
+}
+.status_paragraph p{
+  
+    font-size: 0.6rem !important;
+
+}
+.status_output p{
+  
+  font-size: 0.6rem !important;
+
+}
+.Characters_name h6{
+  margin-bottom: 0.3rem !important;
+}
+/* Add these styles to your existing App.css file */
+
+/* Selected filter field */
+.selected-filter {
+  display: inline-block;
+  background-color: lightgrey;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 20px; /* Adjust the border-radius to your preference */
+}
+
+/* Remove filter button */
+.btn-remove-filter {
+  margin-left: 5px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Hover effect on remove filter button */
+.btn-remove-filter:hover {
+  color: red; /* Change the color on hover to make it more noticeable */
+}
