@@ -142,7 +142,7 @@ const App = () => {
                   </div>
                 </div>
               </div>
-              <div className="characters">
+              <div className="characters col-lg-12 col-md-12 col-sm-12">
                 {filteredCharacters.map(character => (
                   <div key={character.id} className="character-card">
                     <img src={character.image} alt={character.name} />
@@ -155,10 +155,10 @@ const App = () => {
                       </div>
                       <div className='status'>
                         <div className='status_paragraph'>
-                          <p className='fs-'>Status:</p>
+                          <p className='fs-6'>Status:</p>
                         </div>
                         <div className='status_output'>
-                          <p className='fs-6'>{character.status}</p>
+                          <p className=''>{character.status}</p>
                         </div>
                       </div>
                       <div className='status'>
@@ -166,7 +166,7 @@ const App = () => {
                           <p className='fs-6'>Species:</p>
                         </div>
                         <div className='status_output'>
-                          <p className='fs-6'> {character.species}</p>
+                          <p className=''> {character.species}</p>
                         </div>
                       </div>
                       <div className='status'>
@@ -174,7 +174,7 @@ const App = () => {
                           <p className='fs-6'>Gender:</p>
                         </div>
                         <div className='status_output'>
-                          <p className='fs-6'>{character.gender}</p>
+                          <p className=''>{character.gender}</p>
                         </div>
                       </div>
                       <div className='status'>
@@ -182,15 +182,15 @@ const App = () => {
                           <p className='fs-6'>Origin: </p>
                         </div>
                         <div className='status_output'>
-                          <p className='fs-6'>{character.origin.name}</p>
+                          <p className=''>{character.origin.name}</p>
                         </div>
                       </div>
                       <div className='status'>
                         <div className='status_paragraph'>
-                          <p className='fs-6'>Last location:</p>
+                          <p className='fs-6'>Lastlocation:</p>
                         </div>
                         <div className='status_output'>
-                          <p className='fs-6'>{character.location.name}</p>
+                          <p className=''>{character.location.name}</p>
                         </div>
                       </div>
                     </div>
