@@ -59,14 +59,24 @@ width: -webkit-fill-available  }
   .character-card {
 width:258px }
 } 
-@media (min-width: 390px) and (max-width: 540px) {
+@media (min-width: 240px) and (max-width: 540px) {
   .character-card {
-width:183px;
-
+width:50%;
+}
+.add_main_filter{
+  display: block !important;
+}
+.add_for_sort button{
+  margin-top: 10px !important;
 }
 .status_output p {
   font-size: 0.3rem ;
 }
+
+} 
+@media (min-width: 541px) and (max-width: 575px) {
+  .character-card {
+width:50% }
 } 
 .Characters_name h6{
   font-size: 0.8rem !important;
