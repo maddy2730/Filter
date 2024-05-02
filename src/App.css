@@ -57,11 +57,17 @@ width: -webkit-fill-available  }
 } 
 @media (min-width: 540px) and (max-width: 768px) {
   .character-card {
-width:258px }
+width:50%}
+.Characters_name h6{
+  font-size: 0.7rem !important;
+}
 } 
 @media (min-width: 240px) and (max-width: 540px) {
   .character-card {
 width:50%;
+}
+.Characters_name h6{
+  font-size: 0.7rem !important;
 }
 .add_main_filter{
   display: block !important;
@@ -74,12 +80,9 @@ width:50%;
 }
 
 } 
-@media (min-width: 541px) and (max-width: 575px) {
-  .character-card {
-width:50% }
-} 
+
 .Characters_name h6{
-  font-size: 0.8rem !important;
+  font-size: 0.8rem;
 }
 .status_id p{
   font-size: 0.6rem !important;
@@ -175,7 +178,7 @@ li {
 }
 .Characters_name{
   position: relative;
-  top: -34px;
+  top: -32px;
   background-color: #000000a1;;
 
 }

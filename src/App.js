@@ -127,8 +127,10 @@ const App = () => {
                     placeholder="Search by name"
                     value={searchTerm}
                     onChange={handleInputChange}
+                    className='p-1'
                   />
-                  <button onClick={() => setCharacters(handleSearch())}>Search</button>
+                 
+                  <button onClick={() => setCharacters(handleSearch())} type="button" class="btn btn-secondary mx-2 rounded-0">Search</button>
                 </div>
                 <div className="add_for_sort">
                   <div className="dropdown">
